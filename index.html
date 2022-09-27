@@ -24,10 +24,10 @@
     <script  src="js/index.js"></script>
     <h1>Hello World</h1>
     <h2>Hello World, we are software developers!</h2>
-    <h1 id="title"></h1>
-    <p id="description"></p>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
-      <label id="name">Name</label><br>
+      <label id="name-label">Name</label><br>
       <input type="text" id="name" placeholder="Enter your name" required><br>
       <label id="email-label">Email</label><br>
       <input type="email" id="email" placeholder="Enter your email" required><br>
@@ -40,7 +40,23 @@
         <option value="student">Student</option>
         <option value="Full time Job">Full time Job</option>
       </select><br>
-      
+      <label>Would you recommend freeCodeCamp to a friend?</label><br>
+      <input type="radio" name="recommendation" value="HTML">
+      <label>Definately</label><br>
+      <input type="radio" name="recommendation" value="HTML">
+      <label>Maybe</label><br>
+      <input type="radio" name="recommendation" value="HTML">
+      <label>Not sure</label><br>
+      <label>What would you like to see improved? (Check all that apply)</label><br>
+      <input type="checkbox" value="Front-end Projects">
+      <label>Front-end Projects</label><br>
+      <input type="checkbox" value="Back-end Projects">
+      <label>Back-end Projects</label><br>
+      <input type="checkbox" value="Data Visualization">
+      <label>Data Visualization</label><br>
+      <label>Any comments or suggestions?</label><br>
+      <textarea name="comment">Enter your comment here...</textarea><br>
+      <input type="submit" id="submit">
     </form>
   </body>
 </html>
