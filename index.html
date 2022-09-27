@@ -24,5 +24,23 @@
     <script  src="js/index.js"></script>
     <h1>Hello World</h1>
     <h2>Hello World, we are software developers!</h2>
+    <h1 id="title"></h1>
+    <p id="description"></p>
+    <form id="survey-form">
+      <label id="name">Name</label><br>
+      <input type="text" id="name" placeholder="Enter your name" required><br>
+      <label id="email-label">Email</label><br>
+      <input type="email" id="email" placeholder="Enter your email" required><br>
+      <label id="number-label">Age</label><br>
+      <p>
+        <input id="number" type="number" min="10" max="99" placeholder="Enter your age">
+      </p>
+      <label for="role">Which option best describes your current role?</label><br>
+      <select id="dropdown">
+        <option value="student">Student</option>
+        <option value="Full time Job">Full time Job</option>
+      </select><br>
+      
+    </form>
   </body>
 </html>
